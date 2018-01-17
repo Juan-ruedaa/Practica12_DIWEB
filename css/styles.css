@@ -559,6 +559,10 @@ p{
             }
 
 
+            .imagenAlojamiento>img{
+                min-height: 190px;
+            }
+
             .tituloPrimarioArt{
                 font-size: 1.5rem; 
             }
@@ -937,6 +941,9 @@ p{
                     width: 55%;
                 }
             
+                .imagenAlojamiento>img{
+                    min-height: 200px;
+                }
             
                 .columnaCentralArt{
                     margin-left: 13px;
