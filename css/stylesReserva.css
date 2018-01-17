@@ -1,0 +1,379 @@
+main{
+    width: 100%;
+}
+
+
+/*Volver Atrás*/
+#volverAtras{
+    *border: 1px solid;    
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    *justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #009688;
+    padding: 3%;
+    padding-right: 0%;
+}
+
+#volverAtras>img{
+    width: 4%;
+    padding: 0% 2%;
+}
+
+#imagenAlojamiento{
+    width: 100%;
+    *border: 1px solid;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagenAlojamiento>img{
+    width: 90%;
+    *border: 1px solid;
+}
+
+#fichaAlojamiento{
+    box-shadow: 1px 1px 2px #504f4f, 0px 0px 1px #504f4f;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+#tituloFichaAlojamiento{
+    text-align: center;
+
+}
+
+
+.caracteristicaAlojamiento{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    font-size: 0.9rem;
+}
+
+hr{
+    width: 95%;
+    margin: 5% 0%;
+    background-color: grey;
+}
+
+#caracteristicasAlojamiento{
+    display: flex;
+    flex-flow: row;
+}
+
+#bloque1{
+    *border: 1px solid;
+    width: 100%; 
+    font-size: 1.5rem;
+}
+
+#bloque2{
+    display: flex;
+    flex-flow: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%; 
+}
+
+#bloque2>p{
+    margin: 3%;
+    width: 95%; 
+}
+
+#bloque3{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    *text-align: center;
+    width: 60%;
+    *border: 1px solid;
+    padding: 2%;
+}
+
+#bloque3Izquierda{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 7%;
+    width: 52%;
+}
+
+#bloque3Derecha{
+    font-size: 1.3rem; 
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+#textoPrecio{
+    font-size: 3rem; 
+    font-weight: bold;
+}
+
+#bloque4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+#iconosOtrasCaracteristicas{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    width: 60%;
+}
+
+#bloque5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%; 
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ubicacion{
+    padding: 3%;
+    width: 80%;
+    min-height: 300px;
+}
+
+
+#reservaAlojamiento{
+    box-shadow: 1px 1px 2px #504f4f, 0px 0px 1px #504f4f;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#camposFormularioReserva{
+    *background-color: rgb(116, 116, 241);
+    width: 80%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#formularioReserva{
+    *background-color: rgb(116, 241, 231);
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.campoReserva{
+    margin: 4%;
+}
+
+.inputReserva{
+    padding: 2%;
+    border: none;
+    border-bottom: 2px solid #009688;
+}
+
+.inputReserva:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #009688;
+}
+
+#botonReservar{
+    *border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonReservar>input{
+    background-color: #009688;
+    color:white;
+    padding: 2.5% 7%;
+    margin-bottom: 2%;
+    border:none;
+    font-size: 1.2rem;
+}
+
+
+            /* *******************************
+            -----------Tamaño Tablet----------
+            ******************************* */
+
+
+        @media only screen and (min-width: 660px){
+
+            #volverAtras{
+                font-size: 1.3rem;
+            }
+            
+            #volverAtras>img{
+                width: 3%;
+            }
+            
+            #imagenAlojamiento>img{
+                width: 80%;
+            }
+
+            #bloque1{
+                font-size: 1.8rem;
+            }
+
+            #imgUsers{
+                content: url('../img/users32.png');
+            }
+
+            #imgBed{
+                content: url('../img/bed32.png');
+            }
+
+            #imgBath{
+                content: url('../img/bath32.png');
+            }
+
+            #imgStar{
+                content: url('../img/star32.png');
+            }
+
+            #bloque3Izquierda{
+                font-size: 2rem;
+            }
+
+            #textoPrecio{
+                font-size: 3.4rem; 
+            }
+
+            #iconosOtrasCaracteristicas>img{
+                width: 10%;
+            }
+
+            #botonReservar>input{
+                padding: 2% 7%;
+                text-align: center;
+            }
+
+            #wifi{
+                content: url('../img/wifi64.png');
+            }
+
+            #pool{
+                content: url('../img/pool64.png');
+            }
+
+            #fire{
+                content: url('../img/fire64.png');
+            }
+
+            #air{
+                content: url('../img/air64.png')
+            }
+
+        }
+
+
+        /* ******************************************
+        -----------Tamaño Ordenador Mediano----------
+        ********************************************* */
+
+
+
+        @media only screen and (min-width: 1024px){
+            
+            #volverAtras{
+                font-size: 1.5rem;
+            }
+            
+            #volverAtras>img{
+                width: 2%;
+            }
+
+            #informacionAlojamiento{
+                display: flex;
+                flex-flow: row;
+            }
+
+            #imagenAlojamiento>img{
+                width: 70%;
+            }
+            
+            #fichaAlojamiento{
+                width: 60%;
+                margin-right: 4%;
+            }
+
+
+            #imagenMasia{
+                content: url('../img/masia.jpg');
+            }
+
+            #reservaAlojamiento{
+                width: 40%;
+                height: 30%;
+                margin-left: 0px;
+            }
+
+            #wifi{
+                content: url('../img/wifi64.png');
+            }
+
+            #pool{
+                content: url('../img/pool64.png');
+            }
+
+            #fire{
+                content: url('../img/fire64.png');
+            }
+
+            #air{
+                content: url('../img/air64.png')
+            }
+
+
+
+        /* ******************************************
+        -----------Tamaño Ordenador HD----------
+        ********************************************* */
+
+            @media only screen and (min-width: 1280px){
+
+                #imagenAlojamiento>img{
+                    width: 60%;
+                }
+
+
+                #imagenMasia{
+                    content: url('../img/masia2.jpg');
+                    width: 50%;
+                }
+            }
+
+        }
