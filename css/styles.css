@@ -427,7 +427,7 @@ p{
         width: 40%;
     }
 
-    #github>img{
+    #github>a>img{
         width: 90%;
     }
 
@@ -435,7 +435,7 @@ p{
         width: 40%;
     }
 
-    #twitter>img{
+    #twitter>a>img{
         width: 90%;
     }
 
@@ -792,12 +792,12 @@ p{
                 }
                     
             
-                #github>img{
+                #github>a>img{
                     width: 50%;
                 }
             
             
-                #twitter>img{
+                #twitter>a>img{
                     width: 50%;
                 }
 
@@ -899,12 +899,12 @@ p{
                 }
                     
             
-                #github>img{
+                #github>a>img{
                     width: 40%;
                 }
             
             
-                #twitter>img{
+                #twitter>a>img{
                     width: 40%;
                 }
 
